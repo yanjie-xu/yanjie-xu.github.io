@@ -1,0 +1,20 @@
+# EDIT THIS FILE for the main profile text and social links.
+name: "Yanjie Xu"
+name_cn: "徐燕洁"
+tagline: "Ecology · Big data · A changing world"
+role: "Senior Research Scientist · Docent in Global Change Ecology"
+hero_summary: >-
+  Modelling macro-spatial ecological dynamics with big biodiversity data,
+  from species redistribution and conservation priorities to One Health.
+hero_image: "/assets/images/hero/mushroom-hero.jpg"
+portrait: "/assets/images/profile/yanjie-profile.jpg"
+about_heading: "Modelling nature across space and time."
+about: >-
+  I am a macroecologist, fascinated by modelling the nature. I have been investigating
+  macro-spatial ecological dynamics by modelling spatiotemporal biodiversity patterns
+  with big data. I am particularly interested in conservation prioritization,
+  human-wildlife interaction, and one-health topics.
+email: "yanjie.xu5@gmail.com"
+linkedin: "https://www.linkedin.com/in/yanjie-xu-b9074a107/"
+orcid: "https://orcid.org/0000-0003-4420-6353"
+google_scholar: "https://scholar.google.com/citations?user=2m9FQk0AAAAJ"
