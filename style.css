@@ -1,0 +1,406 @@
+/* Minimal site for Yanjie Xu
+   Design principle: strong hierarchy, generous whitespace, almost no decoration.
+*/
+
+:root {
+  --bg: #f4f3ef;
+  --surface: #ebeae4;
+  --text: #11110f;
+  --muted: #66655e;
+  --line: #cfcec6;
+  --accent: #315b45;
+  --max: 1380px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header {
+  width: min(calc(100% - 64px), var(--max));
+  margin: 0 auto;
+  min-height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+nav {
+  display: flex;
+  gap: 34px;
+}
+
+nav a,
+.text-link,
+.contact-links a {
+  font-size: 15px;
+}
+
+nav a:hover,
+.text-link:hover,
+.contact-links a:hover {
+  opacity: .55;
+}
+
+main,
+footer {
+  width: min(calc(100% - 64px), var(--max));
+  margin: 0 auto;
+}
+
+.hero {
+  min-height: 78vh;
+  padding: 86px 0 78px;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 72px;
+  align-items: center;
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 24px;
+  font-size: 13px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .11em;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  max-width: 900px;
+  font-size: clamp(54px, 7.1vw, 112px);
+  line-height: .94;
+  letter-spacing: -.065em;
+  font-weight: 500;
+}
+
+.hero-intro {
+  max-width: 620px;
+  margin: 36px 0 28px;
+  font-size: clamp(19px, 2vw, 27px);
+  line-height: 1.35;
+  letter-spacing: -.02em;
+  color: #34342f;
+}
+
+.text-link {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 1px solid currentColor;
+}
+
+.text-link span {
+  padding-left: 6px;
+}
+
+.hero-image {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 58% center;
+}
+
+.hero-image.image-missing::after {
+  content: "Keep your existing photo at assets/images/hero/mushroom-hero.jpg";
+  height: 100%;
+  padding: 28px;
+  display: flex;
+  align-items: flex-end;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.section {
+  padding: 120px 0;
+  border-top: 1px solid var(--line);
+}
+
+.section h2 {
+  margin: 0;
+  max-width: 980px;
+  font-size: clamp(38px, 5vw, 72px);
+  font-weight: 500;
+  line-height: 1.04;
+  letter-spacing: -.045em;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 90px;
+  align-items: start;
+}
+
+.about-grid > div {
+  padding-top: 8px;
+}
+
+.about-grid p {
+  margin: 0;
+  max-width: 610px;
+  font-size: 20px;
+  line-height: 1.55;
+  color: #34342f;
+}
+
+.about-grid .affiliation {
+  margin-top: 34px;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.research > h2 {
+  margin-bottom: 70px;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--line);
+}
+
+.research-grid article {
+  min-height: 340px;
+  padding: 30px 42px 30px 0;
+  border-right: 1px solid var(--line);
+}
+
+.research-grid article + article {
+  padding-left: 42px;
+}
+
+.research-grid article:last-child {
+  border-right: 0;
+}
+
+.number {
+  display: block;
+  margin-bottom: 70px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.research-grid h3 {
+  margin: 0 0 18px;
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: -.025em;
+}
+
+.research-grid p {
+  max-width: 365px;
+  margin: 0;
+  font-size: 16px;
+  color: var(--muted);
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: end;
+  margin-bottom: 70px;
+}
+
+.publication-list {
+  border-top: 1px solid var(--line);
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: 100px 1fr 32px;
+  gap: 28px;
+  align-items: start;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+  transition: opacity .2s ease;
+}
+
+.publication:hover {
+  opacity: .55;
+}
+
+.pub-year,
+.publication small {
+  color: var(--muted);
+}
+
+.pub-main strong {
+  display: block;
+  max-width: 950px;
+  margin-bottom: 8px;
+  font-size: clamp(19px, 2vw, 27px);
+  line-height: 1.25;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.pub-main small {
+  font-size: 14px;
+}
+
+.arrow {
+  font-size: 18px;
+  text-align: right;
+}
+
+.contact h2 {
+  margin-bottom: 42px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  padding-bottom: 4px;
+  border-bottom: 1px solid currentColor;
+}
+
+footer {
+  min-height: 110px;
+  padding: 30px 0;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .site-header,
+  main,
+  footer {
+    width: min(calc(100% - 36px), var(--max));
+  }
+
+  .site-header {
+    min-height: 74px;
+  }
+
+  nav {
+    gap: 16px;
+  }
+
+  nav a:nth-child(1),
+  nav a:nth-child(2) {
+    display: none;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 64px 0;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  h1 {
+    font-size: clamp(50px, 13vw, 82px);
+  }
+
+  .hero-image {
+    aspect-ratio: 16 / 10;
+  }
+
+  .section {
+    padding: 78px 0;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-grid article,
+  .research-grid article + article {
+    min-height: auto;
+    padding: 28px 0 42px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .number {
+    margin-bottom: 40px;
+  }
+
+  .section-heading {
+    display: block;
+  }
+
+  .section-heading .text-link {
+    margin-top: 28px;
+  }
+
+  .publication {
+    grid-template-columns: 58px 1fr 20px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 520px) {
+  .brand { font-size: 16px; }
+  nav a { font-size: 14px; }
+
+  .hero-intro {
+    font-size: 18px;
+  }
+
+  .section h2 {
+    font-size: 39px;
+  }
+
+  .publication {
+    grid-template-columns: 1fr 20px;
+  }
+
+  .pub-year {
+    grid-column: 1 / -1;
+    margin-bottom: -5px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
