@@ -1,0 +1,1 @@
+Keep the existing file mushroom-hero.jpg in this folder when deploying.

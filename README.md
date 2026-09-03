@@ -1,39 +1,50 @@
-# Yanjie Xu — GitHub Pages dynamic website
+# Yanjie Xu — minimal personal website
 
-这是最终的 **最新视觉设计 + Jekyll 动态新闻系统** 版本。
+This package is a simplified replacement for the current GitHub Pages homepage.
 
-## 先看效果
+## Design direction
 
-解压后双击：
+The visual logic is inspired by the restraint of mol.org:
+- large, clear typography
+- generous whitespace
+- very few visual elements
+- one principal image
+- no sliders, cards, tags, news feed, animation libraries, icons, or decorative effects
+- one consistent visual language throughout
 
-```text
-_site-preview/index.html
-```
+It is intentionally NOT a copy of Map of Life.
 
-## 发布到 GitHub Pages
+## IMPORTANT: keep the existing hero photo
 
-把项目根目录中的内容上传到 `yanjie-xu.github.io` 仓库根目录。GitHub Pages 会读取 `_data/`、`_posts/` 和模板文件，自动生成网站。
+The new homepage uses the photo that is already in your current repository:
 
-## 日后修改
+    assets/images/hero/mushroom-hero.jpg
 
-请先阅读：
+Because the photo already exists publicly in your current GitHub repository, this code package does not duplicate the image file.
 
-```text
-EDITING-GUIDE.md
-```
+When updating the site:
+1. Keep the existing `assets/images/hero/mushroom-hero.jpg`.
+2. Replace the old `index.html` with the new one.
+3. Replace/add `assets/css/style.css`.
+4. You can remove the old Jekyll sections, `_posts`, `_data`, news pages, and unused images later if you want an entirely clean repository.
 
-## 本次按你的要求设置的图片
+## Corrected publication links
 
-- 首页大图：`B929302A-E79B-42E9-B776-A7E36C9916DF.JPG`
-- 学术报告：`IMG_3923.JPG`
-- Docent：`IMG_3516.JPEG`
-- One Health：`IMG_5094.HEIC`（已转换为网页兼容 JPG）
-- 其他板块图片由现有素材中搭配选择
+The previous website had three incorrect DOI links. They are corrected here:
 
-## 隐私处理
+- Slow-lived birds and bats carry higher pathogen loads
+  https://doi.org/10.1016/j.oneear.2024.04.021
 
-代码包未包含原始 CV、Academic Portfolio 或完整原图备份，只保留网页实际使用的压缩图片，避免公开 GitHub 仓库暴露私人信息或照片元数据。
+- Prioritizing global conservation of migratory birds over their migration network
+  https://doi.org/10.1016/j.oneear.2023.08.017
 
-## 重要
+- A network approach to prioritize conservation efforts for migratory birds
+  https://doi.org/10.1111/cobi.13383
 
-不要直接双击根目录的 `index.html` 判断效果，因为它含有 Jekyll 模板。请双击 `_site-preview/index.html`，或把源代码上传到 GitHub Pages。
+The other two selected-publication DOI links were also checked.
+
+## Preview
+
+For a quick local preview, place your existing `mushroom-hero.jpg` at the path above and open `index.html`.
+
+For GitHub Pages, upload the files to the repository root. No build step and no Jekyll dependency are required.
