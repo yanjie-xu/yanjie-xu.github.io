@@ -2,7 +2,7 @@
   {
     "id": "paper-03",
     "category": "conservation",
-    "short": "Infrastructure collisions and migratory-bird survival",
+    "short": "Infrastructure collisions of migratory birds",
     "journal": "Journal of Applied Ecology",
     "year": "In Press",
     "title": "Collision with linear infrastructures reduces survival of a long-lived migratory bird",
@@ -13,7 +13,7 @@
   {
     "id": "paper-04",
     "category": "conservation",
-    "short": "Wetland protection and restoration across scales",
+    "short": "Effects of protection and restoration on waterbirds",
     "journal": "Journal of Applied Ecology",
     "year": "In Press",
     "title": "Contrasting conclusions in the study of wetland bird abundances show the importance of multi-level insights into protection and restoration action",
@@ -24,7 +24,7 @@
   {
     "id": "paper-01",
     "category": "conservation",
-    "short": "Continental priorities for protected areas",
+    "short": "Continental priorities for avian protected areas",
     "journal": "Conservation Biology",
     "year": "2026",
     "title": "Continental-wide prioritization of protected areas to approach global and habitat-specific goals for avian biodiversity conservation",
@@ -59,7 +59,7 @@
   {
     "id": "paper-38",
     "category": "conservation",
-    "short": "Evidence gaps in flyway-scale waterbird conservation",
+    "short": "Evidence gaps in flyway conservation",
     "journal": "Journal of Applied Ecology",
     "year": "2026",
     "title": "Bridging evidence gaps for flyway-scale waterbird conservation. Journal of Applied Ecology 63(6), e70443.",
@@ -70,9 +70,22 @@
     "output_type": "Commentary"
   },
   {
+    "id": "birdlife-2026",
+    "category": "conservation",
+    "short": "Contributor to “State of the World's Birds”",
+    "journal": "BirdLife International’s report",
+    "year": "2026",
+    "title": "State of the World’s Birds: A focus on migratory species and their flyways",
+    "citation": "BirdLife International. 2026. State of the World’s Birds: A focus on migratory species and their flyways. Cambridge, UK: BirdLife International. pp.35. — Contributor",
+    "url": "https://sowb.birdlife.org/?utm_source=chatgpt.com",
+    "original_link": true,
+    "other": true,
+    "role": "Contributor"
+  },
+  {
     "id": "paper-05",
     "category": "conservation",
-    "short": "Migration strategies of White-naped Cranes",
+    "short": "Migratory divide of white-naped cranes",
     "journal": "Avian Research",
     "year": "2025",
     "title": "Satellite tracking reveals a migratory divide and population-specific migratory strategies in White-naped Cranes",
@@ -164,7 +177,7 @@
   {
     "id": "paper-11",
     "category": "conservation",
-    "short": "Conservation across bird migration networks",
+    "short": "Prioritizing global conservation of migration networks",
     "journal": "One Earth",
     "year": "2023",
     "title": "Prioritizing global conservation of migratory birds over their migration network",
@@ -175,7 +188,7 @@
   {
     "id": "paper-12",
     "category": "biodiversity",
-    "short": "Ecological barriers and shifting bird communities",
+    "short": "Ecological barriers mediate bird range shifts",
     "journal": "Proceedings of the National Academy of Sciences",
     "year": "2023",
     "title": "Ecological barriers mediate spatiotemporal shifts of bird communities",
@@ -186,7 +199,7 @@
   {
     "id": "paper-13",
     "category": "biodiversity",
-    "short": "Traits, environment and population stability",
+    "short": "Traits and environment jointly affect population stability",
     "journal": "Ecology",
     "year": "2023",
     "title": "Functional traits and environment jointly determine the spatial scaling of population stability in North American birds",
@@ -230,7 +243,7 @@
   {
     "id": "paper-41",
     "category": "one-health",
-    "short": "European wildlife-pathogen database",
+    "short": "European pathogen database for birds and bats",
     "journal": "Dryad",
     "year": "2023",
     "title": "Pan-European database for pathogenic microbial taxa in birds and bats [Dataset]. Dryad: https://doi.org/10.5061/dryad.stqjq2c84",
@@ -243,7 +256,7 @@
   {
     "id": "paper-17",
     "category": "biodiversity",
-    "short": "Winter range shifts, snow and habitat",
+    "short": "Drivers and constraints for winter range shifts",
     "journal": "Oecologia",
     "year": "2022",
     "title": "Range shifts of overwintering birds depend on habitat type, snow conditions and habitat specialization",
@@ -265,7 +278,7 @@
   {
     "id": "paper-19",
     "category": "one-health",
-    "short": "Habitat loss and avian influenza spread",
+    "short": "Reconfiguration of migration networks affects avian influenza spread",
     "journal": "PLOS Computational Biology",
     "year": "2022",
     "title": "Habitat loss exacerbates pathogen spread: An Agent-based model of avian influenza infection in migratory waterfowl. PLoS Computional Biology 18:e1009577",
@@ -309,7 +322,7 @@
   {
     "id": "paper-23",
     "category": "biodiversity",
-    "short": "Fast–slow traits and avian community stability",
+    "short": "Fast–slow traits drive avian community stability",
     "journal": "Functional Ecology",
     "year": "2021",
     "title": "Composition of ‘fast-slow’ traits drives avian community stability over North America",
@@ -320,7 +333,7 @@
   {
     "id": "paper-24",
     "category": "one-health",
-    "short": "Migration, disease outbreaks and immunity",
+    "short": "Congeneric waterfowl species with varying avian influenza risk",
     "journal": "Geospatial Health",
     "year": "2021",
     "title": "Do contrasting patterns of migration movements and disease outbreaks between congeneric waterfowl species reflect differing immunity? Geospatial Health 16:223-230",
@@ -331,7 +344,7 @@
   {
     "id": "paper-25",
     "category": "biodiversity",
-    "short": "Habitat use in alpine birds and mammals",
+    "short": "Habitat use of alpine vertebrates",
     "journal": "Animals",
     "year": "2021",
     "title": "Habitat Use and Activity Patterns of Mammals and Birds in Relation to Temperature and Vegetation Cover in the Alpine Ecosystem of Southwestern China with Camera-Trapping Monitoring",
@@ -353,7 +366,7 @@
   {
     "id": "paper-27",
     "category": "biodiversity",
-    "short": "Urbanization and land–climate dynamics",
+    "short": "Urbanization-driven changes in land-climate dynamics",
     "journal": "Remote Sensing",
     "year": "2020",
     "title": "Urbanization-driven changes in land-climate dynamics: A case study of Haihe River Basin, China",
@@ -364,7 +377,7 @@
   {
     "id": "paper-28",
     "category": "conservation",
-    "short": "Connectivity loss and migratory-bird declines",
+    "short": "Connectivity loss drives migratory-bird declines",
     "journal": "Ecological Applications",
     "year": "2019",
     "title": "Loss of functional connectivity in migration networks induces population decline in migratory birds",
@@ -386,7 +399,7 @@
   {
     "id": "paper-30",
     "category": "one-health",
-    "short": "Connectivity and the spread of Lyme disease",
+    "short": "Habitat connectivity and Lyme disease risk",
     "journal": "Remote Sensing",
     "year": "2019",
     "title": "Habitat connectivity, host assemblage characteristics of local and neighbouring counties, and temperature jointly shape the spatial expansion of Lyme disease in United States",
@@ -419,7 +432,7 @@
   {
     "id": "paper-33",
     "category": "one-health",
-    "short": "Autumn migration and avian influenza transmission",
+    "short": "Autumn migration facilitates avian influenza transmission",
     "journal": "Scientific Reports",
     "year": "2016",
     "title": "Southward autumn migration of waterfowl facilitates cross-continental transmission of the highly pathogenic avian influenza H5N1 virus",
