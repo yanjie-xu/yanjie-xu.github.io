@@ -1,16 +1,5 @@
 [
   {
-    "id": "paper-03",
-    "category": "conservation",
-    "short": "Infrastructure collisions of migratory birds",
-    "journal": "Journal of Applied Ecology",
-    "year": "In Press",
-    "title": "Collision with linear infrastructures reduces survival of a long-lived migratory bird",
-    "citation": "L Wen, Y Guo, A Lehikoinen, BK Sandercock c, A Santangeli, D Pavón-Jordán, X Li, Y Xu (In Press). Collision with linear infrastructures reduces survival of a long-lived migratory bird. Journal of Applied Ecology",
-    "url": "",
-    "original_link": false
-  },
-  {
     "id": "paper-01",
     "category": "conservation",
     "short": "Continental priorities for avian protected areas",
@@ -30,6 +19,17 @@
     "title": "Vulnerability and adaptations to climate change in EU protected areas: a Natura 2000 managers’ perspective",
     "citation": "G Zavattoni, J Brommer, T Hallman, I Kacergyte, S Nagy, T Part, D Pavon-Jordan, A Soultan, Y Xu, E Gaget (2026). Vulnerability and adaptations to climate change in EU protected areas: a Natura 2000 managers’ perspective. Conservation Letters 19: e70047.",
     "url": "https://doi.org/10.1111/con4.70047",
+    "original_link": true
+  },
+  {
+    "id": "paper-03",
+    "category": "conservation",
+    "short": "Infrastructure collisions of migratory birds",
+    "journal": "Journal of Applied Ecology",
+    "year": "2026",
+    "title": "Collision with linear infrastructures reduces survival of a long-lived migratory bird",
+    "citation": "L Wen, Y Guo, A Lehikoinen, BK Sandercock, A Santangeli, D Pavón-Jordán, X Li, Y Xu (2026). Collision with linear infrastructures reduces survival of a long-lived migratory bird. Journal of Applied Ecology 63: e70589. https://doi.org/10.1111/1365-2664.70589",
+    "url": "https://doi.org/10.1111/1365-2664.70589",
     "original_link": true
   },
   {
