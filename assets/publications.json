@@ -11,17 +11,6 @@
     "original_link": false
   },
   {
-    "id": "paper-04",
-    "category": "conservation",
-    "short": "Effects of protection and restoration on waterbirds",
-    "journal": "Journal of Applied Ecology",
-    "year": "In Press",
-    "title": "Contrasting conclusions in the study of wetland bird abundances show the importance of multi-level insights into protection and restoration action",
-    "citation": "P Lehikoinen, Y Xu, M Mikkola-Roos, A Lehikoinen (In Press). Contrasting conclusions in the study of wetland bird abundances show the importance of multi-level insights into protection and restoration action. Journal of Applied Ecology",
-    "url": "",
-    "original_link": false
-  },
-  {
     "id": "paper-01",
     "category": "conservation",
     "short": "Continental priorities for avian protected areas",
@@ -41,6 +30,17 @@
     "title": "Vulnerability and adaptations to climate change in EU protected areas: a Natura 2000 managers’ perspective",
     "citation": "G Zavattoni, J Brommer, T Hallman, I Kacergyte, S Nagy, T Part, D Pavon-Jordan, A Soultan, Y Xu, E Gaget (2026). Vulnerability and adaptations to climate change in EU protected areas: a Natura 2000 managers’ perspective. Conservation Letters 19: e70047.",
     "url": "https://doi.org/10.1111/con4.70047",
+    "original_link": true
+  },
+  {
+    "id": "paper-04",
+    "category": "conservation",
+    "short": "Protection and restoration effects on waterbirds",
+    "journal": "Journal of Applied Ecology",
+    "year": "2026",
+    "title": "Contrasting conclusions in the study of wetland bird abundances show the importance of multi-level insights into protection and restoration actions",
+    "citation": "P Lehikoinen, Y Xu, M Mikkola-Roos, A Lehikoinen, K Jaatinen (2026). Contrasting conclusions in the study of wetland bird abundances show the importance of multi-level insights into protection and restoration actions. Journal of Applied Ecology 63: e70578. https://doi.org/10.1111/1365-2664.70578",
+    "url": "https://doi.org/10.1111/1365-2664.70578",
     "original_link": true
   },
   {
