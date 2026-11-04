@@ -83,6 +83,17 @@
     "role": "Contributor"
   },
   {
+    "id": "mee-70445",
+    "category": "one-health",
+    "short": "Reviewing avian influenza transmission models",
+    "journal": "Methods in Ecology and Evolution",
+    "year": "2026",
+    "title": "A systematic review of avian influenza virus transmission models: Gaps and opportunities",
+    "citation": "S Yin, Y Xu, CS Teitelbaum, JA Harvey, JY Takekawa, WM Getz, DJ Prosser, X Xiao (2026). A systematic review of avian influenza virus transmission models: Gaps and opportunities. Methods in Ecology and Evolution. https://doi.org/10.1111/2041-210X.70445",
+    "url": "https://doi.org/10.1111/2041-210X.70445",
+    "original_link": true
+  },
+  {
     "id": "paper-05",
     "category": "conservation",
     "short": "Migratory divide of white-naped cranes",
