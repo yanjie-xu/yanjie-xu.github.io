@@ -1,5 +1,16 @@
 [
   {
+    "id": "jae-70651",
+    "category": "conservation",
+    "short": "Bird mortality from window collisions",
+    "journal": "Journal of Applied Ecology",
+    "year": "2026",
+    "title": "Bird ringing data reveals country-wide spatial and temporal patterns in mortality from window collisions",
+    "citation": "E Villon, R Thorogood, A Lehikoinen, Y Xu (2026). Bird ringing data reveals country-wide spatial and temporal patterns in mortality from window collisions. Journal of Applied Ecology 63(11): e70651. https://doi.org/10.1111/1365-2664.70651",
+    "url": "https://doi.org/10.1111/1365-2664.70651",
+    "original_link": true
+  },
+  {
     "id": "paper-01",
     "category": "conservation",
     "short": "Continental priorities for avian protected areas",
